@@ -46,6 +46,13 @@ public Pet (String initName, int initAge, double initWeight, String initType, bo
     public void setAge (int newAge) {
         this.age = newAge;
     }
-
-
+    public void setWeight (double newWeight) {
+        this.weight = newWeight;
+    }
+    public void setType (String newType) {
+        this.type = newType;
+    }
+    public void setSterile (boolean newSterile) {
+        this.sterile = newSterile;
+    }
 }
