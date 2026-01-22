@@ -11,11 +11,11 @@ public class Pet {
     // 2. Define CONSTRUCTOR
 public Pet (String initName, int initAge, double initWeight, String initType, boolean initSterile)
 {
-    name = "Sophie";
-    age = 5;
-    weight = 20;
-    type = "dog";
-    sterile = false;
+    name = initName;
+    age = initAge;
+    weight = initWeight;
+    type = initType;
+    sterile = initSterile;
 }
     // 3. Define METHODS
     // getters
@@ -37,7 +37,7 @@ public Pet (String initName, int initAge, double initWeight, String initType, bo
      
     // toString
     public String toString() {
-        return age + ": " + name + ", " + type;
+        return "Name: " + name + "Age: " + age + "Weight: " + weight + "Type: " + type + "Sterile: " + sterile;
     }
     // setters
     public void setName (String newName) {
